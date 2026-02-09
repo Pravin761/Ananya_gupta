@@ -30,3 +30,22 @@ Step 2: Create Forensic Image Using FTK Imager
 3. Open FTK Imager with administrator privileges.
 4. Click File → Create Disk Image.
 5. Select Contents of a Folder and choose the Test_Evidence folder.
+
+  6. Select the image format (RAW or E01).
+7. Enter case details and choose a destination path.
+8. Enable hash calculation and start imaging.
+9. Wait for the image creation to complete and verify hash values.
+Step 3: Delete Test Files
+10. Go to the original Test_Evidence folder.
+11. Delete all five test files.
+12. Empty the Recycle Bin to ensure permanent deletion.
+Step 4: Analyze and Recover Files Using Autopsy
+13. Launch Autopsy and create a New Case.
+14. Enter case name, examiner details, and select case directory.
+15. Add data source → Disk Image or VM File.
+16. Browse and select the forensic image created using FTK Imager.
+17. Configure ingest modules (file system, deleted file recovery, hash lookup).
+18. Start the analysis process.
+19. Navigate to Deleted Files section.
+20. Identify and recover the deleted test files.
+21. Export recovered files if required.
