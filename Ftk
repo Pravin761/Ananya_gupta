@@ -1,0 +1,23 @@
+1. Open FTK Imager with administrator privileges.
+
+2. Click on File → Create Disk Image.
+
+3. Select the source type (Physical Drive / Logical Drive / Image File / Folder contents).
+
+4. Choose the required drive or partition and click Next.
+
+5. Select the image format such as RAW (dd) or E01.
+
+6. Enter case details including case number, evidence number, examiner name, and description.
+
+7. Select the destination path to save the image file.
+
+8. Configure image fragmentation size if required.
+
+9. Enable hash calculation (MD5/SHA1/SHA256).
+
+10. Click Start to begin the imaging process.
+
+11. Wait until the image acquisition is completed.
+
+12. Verify that the generated hash values match
